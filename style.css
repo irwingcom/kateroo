@@ -1,0 +1,137 @@
+body {
+    background: url(/cultcase/img/starbackground.png);
+    animation: slide 40s linear infinite;
+}
+nav {
+    background-color: #333131;
+}
+a {
+    text-decoration: none;
+    color: #EBEBE3;
+}
+a:hover {
+    color: #ff0505;
+}
+.cat {
+    padding-top: 10px;
+}
+.uiblock {
+    background-color: #8E2E79;
+    color: #F7A821;
+    border-radius: 20px;
+    margin: 10px;
+}
+.psblock {
+    background-color: #F7A821;
+    color: #8E2E79;
+    border-radius: 20px;
+    margin: 10px;
+}
+.ititle1 {
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+.ititle2 {
+    background-color: rgb(104, 100, 100);
+    color: white;
+    text-align: center;
+}
+
+.ititle3 {
+    background-color: rgb(212, 206, 206);
+    color: white;
+    text-align: center;
+}
+.per1 {
+    background-color: aqua;
+    margin: 18px;
+    padding: 17px;
+    text-align: center;
+    border-radius: 20px;
+}
+.per2 {
+    background-color: greenyellow;
+    margin: 18px;
+    padding: 17px;
+    text-align: center;
+    border-radius: 20px;
+}
+.per3 {
+    background-color: goldenrod;
+    margin: 18px;
+    padding: 17px;
+    text-align: center;
+    border-radius: 20px;
+}
+.fpm {
+    background-color: purple;
+    border-radius: 20px;
+}
+.mhs {
+    margin: 10px;
+    background-color: violet;
+    border-radius: 20px;
+}
+.mhsp {
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+.sof {
+    margin: 10px;
+    background-color: rgb(45, 255, 108);
+    border-radius: 20px;
+}
+.sofp {
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+.wnh {
+    margin: 10px;
+    background-color: rgb(233, 6, 6);
+    border-radius: 20px;
+}
+.wnhp {
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+.ifl {
+    margin: 10px;
+    background-color: rgb(157, 29, 173);
+    border-radius: 20px;
+}
+.iflp {
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+.skt2 {
+    transform: rotate(-45deg);
+}
+.skt3 {
+    transform: rotate(45deg);
+}
+.mfr1 {
+    transform: rotate(-45deg);
+}
+.mfr2 {
+    transform: rotate(45deg);
+}
+.screen {
+    border: solid black 10px;
+    border-radius: 20px;
+    margin: 20px;
+}
+footer {
+    background-color: #333131;
+}
+.logoexp {
+    color: #ff0505;
+}
+@keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: 0 500px; }
+}
